@@ -4,7 +4,7 @@ const postSchema = new mongoose.Schema({
 
     coinIcon: {
         type: String,
-        required: true
+        required: false
     },
     coinName: {
         type: String,
